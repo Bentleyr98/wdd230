@@ -6,14 +6,14 @@
   }
 
 header{
-    background-color: ECBA82;
+    background-color: #ECBA82;
     display: grid;
-    grid-template-columns: auto, auto;
+    grid-template-columns: auto auto;
     height: 200px;
 }
 
 footer{
-    background-color: ECBA82;
+    background-color: #ECBA82;
     height: 50px;
     padding: 10px;
     text-align: center;
