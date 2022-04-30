@@ -2,9 +2,10 @@
 
 #grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 360px 360px 360px;
     grid-gap: 50px;
     margin: 50px;
+    justify-content: center;
 
 }
 
@@ -37,7 +38,7 @@ h3 {
     background-color: #d1a374;
     padding-top: 8px;
     padding-bottom: 0;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 img {
@@ -52,7 +53,7 @@ img {
       padding-top: 8px;
       padding-bottom: 15px;
       margin-left: 5px;
-      padding-left: 25px;
+      padding-left: 15px;
   }
 
   a {
@@ -62,13 +63,13 @@ img {
     height: 25px;
     padding-bottom: 25px;
     margin-left: 5px;
-    padding-left: 25px;
+    padding-left: 15px;
   }
 
   p {
-    padding-left: 28px;
-    padding-right: 28px;
-    padding-bottom: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 10px;
     padding-top: 5px;
   }
 
