@@ -89,7 +89,7 @@ body {
     flex-direction: row;   } 
 }
 
-@media screen and (min-width: 685px){
+@media screen and (min-width: 690px){
     nav ul{
     flex-direction: row;   } 
 }
