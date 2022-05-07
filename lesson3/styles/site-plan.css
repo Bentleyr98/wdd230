@@ -87,16 +87,9 @@ body {
 @media screen and (min-width: 900px){
     nav ul{
     flex-direction: row;   } 
-    #grid {
-        grid-column: auto auto ;
-    }
 }
 
 @media screen and (min-width: 680px){
     nav ul{
     flex-direction: row;   } 
-
-    #grid {
-        grid-column: auto;
-    }
 }
