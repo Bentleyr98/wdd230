@@ -1,16 +1,41 @@
-nav ul{
+nav ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: 0 auto;
+}
 
+.logonav {
+    display: inline-flex;
+}
+
+.logo {
+    width: 175px;
+    height: 140px;
 }
 
 nav ul li {
     list-style-type: none;
-    padding: 20px 51px;
+    padding: 10px 51px;
+    /* margin-top: 0px; */
 }
 
+header h1 {
+    text-align: center;
+}
+
+nav {
+    display: inline-flex;
+    align-self: center;
+}
+
+main {
+    background-color: #D8B483;
+}
+
+header, footer {
+    background-color: #70A288;
+}
 
 a {
     color: black;
@@ -18,7 +43,6 @@ a {
     font-size: 1.5em;
     text-align: center;
 }
-/* align is vertially centering the item. Justify is horizontal */
 
 li {
     display: none;
@@ -28,13 +52,19 @@ li:first-child {
     display: block;
 }
 
+nav ul {
+    margin-left: 0;
+    padding-inline-start: 0px;
+}
+
 .responsive li {
     display: block;
 }
 
 @media screen and (min-width: 900px){
     nav ul{
-    flex-direction: row;   } 
+    flex-direction: row; 
+      } 
 
     li:first-child{
         display: none;
