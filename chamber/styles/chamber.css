@@ -5,6 +5,28 @@ nav ul {
     margin: 0 auto;
 }
 
+#grid {
+    display: grid;
+    grid-template-columns: 1em 2em 1em;
+    
+}
+
+.call{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 150px;
+    width: 130px;
+    background-color: #D8B483;
+}
+
+.hero{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    width: 200px;
+    height: 300px;
+    background-color: #D8B483;
+}
+
 .logonav {
     display: inline-flex;
 }
@@ -29,9 +51,6 @@ nav {
     align-self: center;
 }
 
-main {
-    background-color: #D8B483;
-}
 
 header, footer {
     background-color: #70A288;
