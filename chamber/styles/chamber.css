@@ -80,23 +80,55 @@ nav ul {
     background-color: #D8B483;
 }
 
+header h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
 .logonav {
     display: inline-flex;
+    padding-bottom: -40px;
+    padding-left: -20px;
+}
+
+.firstLine {
+    display: inline-flex;
+    width: 100%;
+    padding-left: 0;
+    padding-inline-start: 0px;
+}
+
+.info h3, .contact, .location {
+    display: inline-flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 51px 30px 51px;
+    margin: 0;
+    align-self: center;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
 }
 
 .logo {
     width: 175px;
     height: 140px;
+    padding-left: 20px;
 }
 
 nav ul li {
     list-style-type: none;
-    padding: 10px 51px;
-    /* margin-top: 0px; */
+    padding: 10px 25px;
 }
 
-header h1 {
+.mod{
     text-align: center;
+    font-size: 16pt;
 }
 
 nav {
@@ -104,6 +136,26 @@ nav {
     align-self: center;
 }
 
+footer{
+    margin-top: 10px;
+    align-self: center;
+}
+
+.date_h{
+    font-size: 20pt;
+    text-align: center;
+    border: 3px solid black;
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+
+header{
+    padding-bottom: 4px;
+}
+
+main{
+    padding-top: 10px;
+}
 
 header, footer {
     background-color: #04395E;
@@ -116,6 +168,8 @@ a {
     font-size: 1.5em;
     text-align: center;
 }
+
+
 
 li {
     display: none;
