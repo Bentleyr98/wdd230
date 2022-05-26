@@ -32,7 +32,7 @@ nav ul {
     bottom:25px;
     right: 20px;
     height: 40px;
-    width: 180px;
+    width: 250px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     background-color: goldenrod;
     font-size: 16pt;
@@ -76,7 +76,7 @@ h1{
     grid-row: 1/3;
     width: 100%;
     height: 100%;
-    background-color: #D8B483;
+    background-color: #EEE8AA;
 }
 
 .call{
@@ -84,7 +84,7 @@ h1{
     grid-row: 1/2;
     height: 100%;
     width: 100%;
-    background-color: #D8B483;
+    background-color: #EEE8AA;
 }
 
 .news{
@@ -92,7 +92,7 @@ h1{
     grid-row: 3/4;
     width: 100%;
     height: 100%;
-    background-color: #D8B483;
+    background-color: #EEE8AA;
 }
 
 .events{
@@ -100,7 +100,7 @@ h1{
     grid-row: 1/2;
     width: 100%;
     height: 100%;
-    background-color: #D8B483;
+    background-color: #EEE8AA;
 }
 
 .weather{
@@ -108,7 +108,7 @@ h1{
     grid-row: 2/3;
     height: 100%;
     width: 100%;
-    background-color: #D8B483;
+    background-color: #EEE8AA;
 }
 
 .join{
@@ -116,7 +116,7 @@ h1{
     grid-row: 3/4;
     height: 100%;
     width: 100%;
-    background-color: #D8B483;
+    background-color: #EEE8AA;
 }
 
 .spotlight1{
@@ -124,7 +124,7 @@ h1{
     grid-row: 1/2;
     height: 100%;
     width: 100%;
-    background-color: #D8B483;
+    background-color: #EEE8AA;
 }
 
 .spotlight2{
@@ -132,7 +132,7 @@ h1{
     grid-row: 2/3;
     height: 100%;
     width: 100%;
-    background-color: #D8B483;
+    background-color: #EEE8AA;
 }
 
 .spotlight3{
@@ -140,7 +140,7 @@ h1{
     grid-row: 3/4;
     height: 100%;
     width:100%;
-    background-color: #D8B483;
+    background-color: #EEE8AA;
 }
 
 header h1 {

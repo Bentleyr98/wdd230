@@ -8,6 +8,7 @@
     get a look at this adventurous mountain community of McCall, Idaho">
     <title>McCall Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
     <header>
@@ -38,7 +39,7 @@
         <section class="hero">
             <img src="images/mccallIdaho.jpg" alt="Picture of Payette Lake in McCall Idaho" class="heroImg">
             <h1>Welcome to McCall</h1>
-            <button class="btn" type="button">Call to Action</button>
+            <button class="btn" type="button">Join the Chamber</button>
             <!-- <h4 class="joinHero">Join the Chamber</h4> -->
         </section>
         <section class="call"><p>Call to Action</p></section>
@@ -48,9 +49,10 @@
             <h4>Weather</h4>
             <img src="images/weather.png" alt="Icon for Sunny weather" class="weatherImg">
             <p>Sunny</p>
-            <p>83F</p>
-            <p>Windchill: N/A</p>
-            <p>Wind: 5mph</p>
+            <p ><span>83<span class="temp">&#8457;</span></span></p>
+            <p>Windchill: <span class="chill"></span></p>
+            <p>Windspeed: <span class="wind">5</span>mph</p>
+            <!-- if windspeed is outside of a certain range, do an if statement to do and N/A -->
 
         </section>
         <section class="join">
@@ -77,5 +79,6 @@
         <p class="mod"> &copy;<span class="year"></span> McCall Chamber of Commerce - Bekah Bentley - WDD 230 Project - Last Date Modified: <span class="date"></span></p>
     </footer>
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
