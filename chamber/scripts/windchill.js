@@ -1,4 +1,4 @@
-let temp = parseInt(document.querySelector('temp').value);
+let temp = parseInt(document.querySelector('temp'));
 console.log(temp);
 let windSpeed = document.querySelector('.wind').value;
 console.log(windSpeed);

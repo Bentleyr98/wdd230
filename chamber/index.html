@@ -14,7 +14,7 @@
     <header>
         
         <div class="logonav">
-        <img class='logo' src="images/MCC_logo2.png" alt="Logo for site. Mountains outlined in yellow against a blue background.">
+        <img class='logo' src="images/MCC_logo2.webp" alt="Logo for site. Mountains outlined in yellow against a blue background.">
         <h1>McCall Chamber of Commerce</h1>
         <nav>
             <ul>
@@ -38,8 +38,16 @@
         <div class="grid">
 
         <section class="hero">
-            <img src="images/mccallIdaho.jpg" alt="Picture of Payette Lake in McCall Idaho" class="heroImg">
-            <h1>Welcome to McCall</h1>
+            <picture>
+                <source media="(min-width:900px)" srcset="images/long.jpg">
+                <source media="(min-width:690px)" srcset="images/medium.jpg">
+                <img src="images/long.jpg" alt="Picture of Payette Lake in McCall Idaho" class="heroImg">
+            </picture>
+            
+            <span class="small">Small</span>
+            <span class="medium">Medium</span>
+            <span class="large">Large</span>
+            <!-- <h1>Welcome to McCall</h1> -->
             <button class="btn" type="button">Join the Chamber</button>
             <!-- <h4 class="joinHero">Join the Chamber</h4> -->
         </section>
@@ -48,11 +56,11 @@
 
         <section class="news"><p>News</p></section>
 
-        <section class="events"><p>Events</p></section>
+        <section class="events"><span class="headers">Events</span></section>
 
         <section class="weather">
             <h4>Weather</h4>
-            <img src="images/weather.png" alt="Icon for Sunny weather" class="weatherImg">
+            <!-- <img src="images/weather.png" alt="Icon for Sunny weather" class="weatherImg"> -->
             <p>Sunny</p>
             <div class="tempSection">
             <p class="temp">83</p>
@@ -76,23 +84,25 @@
 
         <section class="spotlight1">
         <h4>My Father's Place</h4>
-        <p></p>
+        <p>Looking for one of the best burger spots in McCall? Stop by here, there's nothing quite like My Father's Place.</p>
         </section>
 
         <section class="spotlight2">
         <h4>McCall Hatchery Idaho Fish and Game</h4>
-        <p></p>
+        <p>Come visit the Hatchery! Visitors are welcome year-round from 8am to 4pm daily.</p>
         </section>
 
         <section class="spotlight3">
         <h4>Miner's Gas Station</h4>
-        <p>Spotlight Three</p>
+        <p>Come support this locally owned and ran gas station! Stop in for some delicious food while you fuel up for your 
+            next adventure.
+        </p>
         </section>
     </div>
     </main>
     <footer> 
         <div class="firstLine">
-        <img class='logo' src="images/MCC_logo2.png" alt="Logo for site. Mountains outlined in yellow against a blue background">
+        <img class='logo' src="images/MCC_logo2.webp" alt="Logo for site. Mountains outlined in yellow against a blue background">
         <p class="name ">McCall Chamber of Commerce <br> McCall, Idaho</p>
         <p class="contact"><a href = 'McCallCommmerce.gmail.com'>Email Us Here</a></p>
         <p class="location"><a href="https://www.google.com/maps/place/McCall,+ID+83638/@44.9001277,-116.1846026,12z/data=!3m1!4b1!4m5!3m4!1s0x54a659e630979ba1:0x63b51760e0318a36!8m2!3d44.906183!4d-116.1171311">Location</a></p>
