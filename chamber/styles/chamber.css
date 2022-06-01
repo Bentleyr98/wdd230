@@ -86,6 +86,7 @@ h1{
 h4, span.headers {
     display: inline;
     text-align: center !important;
+    font-size: 14pt;
 
 }
 
@@ -95,6 +96,7 @@ h4, span.headers {
     height: 255px;
     width: 305px;
     background-color: #EEE8AA;
+    text-align: center;
 }
 
 .news{
@@ -103,6 +105,7 @@ h4, span.headers {
     width: 100%;
     height: 100%;
     background-color: #EEE8AA;
+    text-align: center;
 }
 
 .events{
@@ -111,6 +114,7 @@ h4, span.headers {
     height: 255px;
     width: 305px;
     background-color: #EEE8AA;
+    text-align: center;
 }
 
 .weather{
@@ -119,6 +123,7 @@ h4, span.headers {
     height: 255px;
     width: 305px;
     background-color: #EEE8AA;
+    text-align: center;
 }
 
 .join{
@@ -127,6 +132,7 @@ h4, span.headers {
     height: 255px;
     width: 305px;
     background-color: #EEE8AA;
+    text-align: center;
 }
 
 .spotlight1{
@@ -135,6 +141,7 @@ h4, span.headers {
     height: 255px;
     width: 305px;
     background-color: #EEE8AA;
+    text-align: center;
 }
 
 .spotlight2{
@@ -143,6 +150,7 @@ h4, span.headers {
     height: 255px;
     width: 305px;
     background-color: #EEE8AA;
+    text-align: center;
 }
 
 .spotlight3{
@@ -151,6 +159,7 @@ h4, span.headers {
     height: 255px;
     width: 305px;
     background-color: #EEE8AA;
+    text-align: center;
 }
 
 header h1 {
