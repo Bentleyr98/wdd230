@@ -1,5 +1,5 @@
 const images = document.querySelectorAll('img');
-const options = {threshold: .5, rootMargin: "0px 0px 100px 0px"};
+const options = {threshold: .5, rootMargin: "0px 0px 20px 0px"};
 
 function preloadImage(img){
     const src = img.getAttribute('data-src');
