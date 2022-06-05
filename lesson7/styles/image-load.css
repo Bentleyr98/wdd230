@@ -4,11 +4,11 @@ picture img{
     padding: 5px;
 }
 
- picture img[data-src] {
+ picture img[src] {
     filter: blur(0.2em);
   }
   
 picture img[data-src] {
     filter: blur(0em);
-    transition: filter 2s;
+    transition: filter 0.5s;
   }
