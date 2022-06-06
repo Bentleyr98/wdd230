@@ -12,6 +12,20 @@ nav ul {
     height: 100%;
 }
 
+div.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex img{
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+}
+
+.norm[data-src]:hover {box-shadow: 0 0 50px #333;}
+
 .hero{
     position: relative;
 }
@@ -428,6 +442,8 @@ nav ul {
 
     } 
 
+    .norm[data-src]:hover {box-shadow: 0 0 0;}
+
     .logo {
         width: 100px;
         height: 100px;
@@ -454,18 +470,6 @@ nav ul {
         padding: 0;
     
     }
-
-    .flex{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .flex img{
-        width: 400px;
-        height: 300px;
-    }
-
-    .norm[data-src]:hover {box-shadow: 0 0 50px #333;}
 
     .social{
         padding-left: 5px;

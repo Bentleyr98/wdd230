@@ -25,7 +25,7 @@ let mainnav = document.querySelector('nav');
 hambutton.addEventListener('click', ()=> {mainnav.classList.toggle('responsive')});
 
 
-const images = document.querySelectorAll('img');
+const images = document.querySelectorAll('.norm');
 const options = {threshold: .5, rootMargin: "0px 0px 20px 0px"};
 
 function preloadImage(img){
