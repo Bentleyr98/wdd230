@@ -9,7 +9,7 @@ document.querySelector('div').innerHTML += `<li> Lesson 03: <a href="lesson3">Si
 document.querySelector('div').innerHTML += `<li> Lesson 04: <a href="chamber">Chamber Home Page</a></li>`;
 document.querySelector('div').innerHTML += `<li> Lesson 05: <a href="lesson4/bom.html">BOM</a></li>`;
 document.querySelector('div').innerHTML += `<li> Lesson 06: <a href="lesson7/lazyload.html">Lazy Load Images</a> </li>`;
-document.querySelector('div').innerHTML += `<li> Lesson 07: <a href="">Title</a> </li>`;
+document.querySelector('div').innerHTML += `<li> Lesson 07: <a href="lesson8/tablebuild.html">Tables</a> </li>`;
 document.querySelector('div').innerHTML += `<li> Lesson 08: <a href="">Title</a> </li>`;
 document.querySelector('div').innerHTML += `<li> Lesson 09: <a href="">Title</a> </li>`;
 document.querySelector('div').innerHTML += `<li> Lesson 10: <a href="">Title</a> </li>`;

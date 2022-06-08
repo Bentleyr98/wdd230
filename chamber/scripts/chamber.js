@@ -83,3 +83,9 @@ visit_heading.textContent = diff_day + ' days since your last visit';
 }
 
 localStorage.setItem('last_visited', now_date);
+
+let emailDate = document.querySelector('#date');
+
+let date2 = new Date();
+
+emailDate.value = date2;

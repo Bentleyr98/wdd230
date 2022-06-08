@@ -111,6 +111,11 @@ h4, span.headers {
 
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 section{
     position: relative;
 }

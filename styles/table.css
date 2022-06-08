@@ -1,0 +1,36 @@
+table{
+    text-align: center;
+    margin: 100px auto;
+    
+}
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #ccc;
+}
+
+tbody tr:nth-child(even){
+    background-color: lightcoral;
+}
+
+thead, tfoot{
+    background-color: cornflowerblue;
+}
+
+tbody tr:first-child{
+    background-color: green;
+}
+
+tbody td:nth-child(2){
+    /* background-color: rebeccapurple; */
+    font-style: italic;
+}
