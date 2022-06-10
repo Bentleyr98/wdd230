@@ -126,6 +126,19 @@ section{
     left:10px
 }
 
+.form_section{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+form, .form_info{
+    width: 30%;
+}
+
 .call{
     grid-column: 1/2;
     grid-row: 1/2;
@@ -178,6 +191,35 @@ section{
     width: 305px;
     background-color: #EEE8AA;
     text-align: center;
+}
+/* 
+.form_section .form_info ul li {
+    display: block;
+} */
+
+.form_info {
+    margin-top: -15px;
+}
+
+.submiss{
+    text-align: center;
+}
+
+#np input.radio {
+	display: inline;
+	margin-left: 0.5em;
+}
+
+#np label{
+    display: inline;
+}
+
+form input:required{
+    border-left: red solid 6px;
+}
+
+form input:required:valid{
+    border-left: green solid 6px;
 }
 
 .spotlight2{
@@ -297,13 +339,13 @@ nav ul {
     padding-inline-start: 0px;
 }
 
-     li:first-child{
+     nav ul li:first-child{
         display: none;
     
     } 
 
 
-    li {
+    nav ul li {
         display:inline;
     }
 
@@ -337,7 +379,7 @@ nav ul {
     
     }
   
-      li:first-child {
+      nav ul li:first-child {
         display: block;
         padding-right: 0px;
         float: left;
@@ -352,7 +394,7 @@ nav ul {
         display: inline-block;
     }
 
-    li {
+     nav ul li {
         display: none;
         
     }
@@ -498,7 +540,7 @@ nav ul {
         float: left;
           } 
       
-          li:first-child {
+          nav ul li:first-child {
             display: block;
             padding: 0;
             padding-right: 5px;
@@ -506,7 +548,7 @@ nav ul {
             float: left;
         }
     
-        li {
+        nav ul li {
             display: none;
             float: left;
         }
