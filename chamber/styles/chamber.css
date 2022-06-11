@@ -201,6 +201,10 @@ form, .form_info{
     margin-top: -15px;
 }
 
+input{
+    margin-bottom: 10px;
+}
+
 .submiss{
     text-align: center;
 }
