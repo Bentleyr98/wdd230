@@ -205,6 +205,14 @@ form, .form_info{
     text-align: center;
 }
 
+#member{
+    margin-top: 15px;
+}
+
+.gold, #desc_bus{
+    margin-bottom: 15px;
+}
+
 #np input.radio {
 	display: inline;
 	margin-left: 0.5em;
