@@ -7,7 +7,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const prophets = jsonObject['prophets'];
-    prophets.forEach(displayProphets);
+    prophets.forEach(displayTable);
     console.table(jsonObject);  // temporary checking for valid response and data parsing
 
   });
@@ -37,4 +37,19 @@ fetch(requestURL)
     
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);
+  }
+
+  function displayTable(prophet){
+    let list_row = document.createElement('tr');
+    let list_td = document.createElement('td');
+    list_td.textContent = `${prophet.name}  ${prophet.lastname}`;
+
+    let td_dob = document.createElement('td');
+    td_dob.textContent = `Date of Birth:  ${prophet.birthdate}`;
+
+    list_row.appendChild(list_td);
+    list_row.appendChild(td_dob);
+
+    document.querySelector('table').appendChild(list_row);
+
   }
