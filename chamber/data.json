@@ -1,0 +1,88 @@
+{
+    "businesses": [
+      {
+        "name": "My Father's Place",
+        "address": "901 N 3rd St, McCall, ID, United States",
+        "phone": "(208) 634-4401",
+        "website": "https://mfpmccall.com/",
+        "logo": "businesses/MFP.png"
+      },
+      {
+        "name": "Growler's Pizza Grill",
+        "address": "501 North 3rd Street, McCall, ID, United States",
+        "phone": "(208) 634-7755",
+        "website": "https://growlerspizza.com/",
+        "logo": "businesses/growlers.png"
+      },
+      {
+        "name": "Shore Lodge",
+        "address": "501 West Lake Street, McCall, ID, United States",
+        "phone": "(208) 634-2244",
+        "website": "https://shorelodge.com/",
+        "logo": "businesses/sl.png"
+      },
+      {
+        "name": "The Sushi Bar",
+        "address": "414 Railroad Avenue, McCall, ID, United States",
+        "phone": "(208) 634-7874",
+        "website": "http://www.sushibarmccall.com/",
+        "logo": "businesses/su.png"
+      },
+      {
+        "name": "Hells Canyon Raft",
+        "address": "495 Deinhard Lane, McCall, ID, USA",
+        "phone": "(208) 634-6366",
+        "website": "https://hellscanyonraft.com/",
+        "logo": "businesses/hcr.png"
+      },
+      {
+        "name": "McCall Golf Course",
+        "address": "925 Fairway Drive, McCall, ID 83638, USA",
+        "phone": "(208) 634-7200",
+        "website": "https://www.mccall.id.us/departments/GolfCourse",
+        "logo": "businesses/mgc.png"
+      },
+      {
+        "name": "Cross O Meats",
+        "address": "5846 U.S. 95, Pollock, ID, USA",
+        "phone": "(208) 628-3868",
+        "website": "https://www.crossomeats.com/",
+        "logo": "businesses/com.png"
+      },
+      {
+        "name": "Umpqua Bank",
+        "address": "900 2nd St, McCall, ID, United States",
+        "phone": "(208) 634-8185",
+        "website": "https://www.umpquabank.com/",
+        "logo": "businesses/ub.png"
+      },
+      {
+        "name": "Zip McCall Adventures",
+        "address": "Boulder Lake Road, McCall, ID, USA",
+        "phone": "(208) 271-1440",
+        "website": "http://zipmccall.com/",
+        "logo": "businesses/zma.png"
+      },
+      {
+        "name": "Albertsons",
+        "address": "132 East Lake Street, McCall, ID, United States",
+        "phone": "(208) 634-8166",
+        "website": "https://local.albertsons.com/id/mccall/132-e-lake-st.html",
+        "logo": "businesses/alb.png"
+      },
+      {
+        "name": "Mile High Power Sports",
+        "address": "13924 Highway 55, McCall, Idaho, United States",
+        "phone": "(208) 634-7007",
+        "website": "https://www.mhpsmccall.com/",
+        "logo": "businesses/mhps.png"
+      },
+      {
+        "name": "Alpenglow Salt Spa",
+        "address": "212 N 3rd St, McCall, ID, USA",
+        "phone": "(208) 630-6585",
+        "website": "https://alpenglowmccall.com/",
+        "logo": "businesses/as.png"
+      }
+    ]
+  }
