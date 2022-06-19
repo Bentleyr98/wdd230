@@ -16,10 +16,12 @@ fetch(requestURL)
 
   function displayBusinesses(business) {  // Create elements to add to the document
     let card = document.createElement('section');
+    let div = document.createElement('div');
     let img = document.createElement('img');
     img.setAttribute('src', business.logo);
     img.setAttribute('alt', `${business.name}'s logo`);
-    card.appendChild(img);
+    div.appendChild(img);
+    card.appendChild(div);
 
     let h2 = document.createElement('h2');    // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = business.name;
@@ -37,6 +39,7 @@ fetch(requestURL)
 
     let website = document.createElement('p');
     website.textContent = business.website;
+    website.setAttribute('class', 'web');
     card.appendChild(website);
 
 

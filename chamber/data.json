@@ -2,28 +2,28 @@
     "businesses": [
       {
         "name": "My Father's Place",
-        "address": "901 N 3rd St, McCall, ID, United States",
+        "address": "901 N 3rd St, McCall, ID, USA",
         "phone": "(208) 634-4401",
         "website": "https://mfpmccall.com/",
         "logo": "images/businesses/MFP.png"
       },
       {
         "name": "Growler's Pizza Grill",
-        "address": "501 North 3rd Street, McCall, ID, United States",
+        "address": "501 North 3rd Street, McCall, ID, USA",
         "phone": "(208) 634-7755",
         "website": "https://growlerspizza.com/",
         "logo": "images/businesses/growlers.png"
       },
       {
         "name": "Shore Lodge",
-        "address": "501 West Lake Street, McCall, ID, United States",
+        "address": "501 West Lake Street, McCall, ID, USA",
         "phone": "(208) 634-2244",
         "website": "https://shorelodge.com/",
         "logo": "images/businesses/sl.png"
       },
       {
         "name": "The Sushi Bar",
-        "address": "414 Railroad Avenue, McCall, ID, United States",
+        "address": "414 Railroad Avenue, McCall, ID, USA",
         "phone": "(208) 634-7874",
         "website": "http://www.sushibarmccall.com/",
         "logo": "images/businesses/su.png"
@@ -37,21 +37,21 @@
       },
       {
         "name": "McCall Golf Course",
-        "address": "925 Fairway Drive, McCall, ID 83638, USA",
+        "address": "925 Fairway Drive, McCall, ID, USA",
         "phone": "(208) 634-7200",
         "website": "https://www.mccall.id.us/departments/GolfCourse",
         "logo": "images/businesses/mgc.png"
       },
       {
         "name": "Cross O Meats",
-        "address": "5846 U.S. 95, Pollock, ID, USA",
+        "address": "5846 US-95, Pollock, ID 83547, USA",
         "phone": "(208) 628-3868",
         "website": "https://www.crossomeats.com/",
         "logo": "images/businesses/com.png"
       },
       {
         "name": "Umpqua Bank",
-        "address": "900 2nd St, McCall, ID, United States",
+        "address": "900 2nd St, McCall, ID, USA",
         "phone": "(208) 634-8185",
         "website": "https://www.umpquabank.com/",
         "logo": "images/businesses/ub.png"
@@ -65,14 +65,14 @@
       },
       {
         "name": "Albertsons",
-        "address": "132 East Lake Street, McCall, ID, United States",
+        "address": "132 East Lake Street, McCall, ID, USA",
         "phone": "(208) 634-8166",
-        "website": "https://local.albertsons.com/id/mccall/132-e-lake-st.html",
+        "website": "https://local.albertsons.com/",
         "logo": "images/businesses/alb.png"
       },
       {
         "name": "Mile High Power Sports",
-        "address": "13924 Highway 55, McCall, Idaho, United States",
+        "address": "13924 Highway 55, McCall, ID, USA",
         "phone": "(208) 634-7007",
         "website": "https://www.mhpsmccall.com/",
         "logo": "images/businesses/mhps.png"
