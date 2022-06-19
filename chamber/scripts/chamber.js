@@ -77,15 +77,9 @@ if (!stored_date){
 
     //calculate the number of days between the two dates
     let diff_day = Math.round(diff_time/(1000*60*60*24));
-console.log(diff_day);
 
 visit_heading.textContent = diff_day + ' days since your last visit';
 }
 
 localStorage.setItem('last_visited', now_date);
 
-let emailDate = document.querySelector('#date');
-
-let date2 = new Date();
-
-emailDate.value = date2;

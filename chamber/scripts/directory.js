@@ -1,5 +1,7 @@
 const requestURL = 'https://bentleyr98.github.io/wdd230/chamber/data.json';
 
+but1 = document.querySelector('.but1');
+but2 = document.querySelector('.but2');
 
 fetch(requestURL)
   .then(function (response) {
@@ -7,8 +9,16 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const businesses = jsonObject['businesses'];
+
+    
+
     businesses.forEach(displayBusinesses);
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    but1.addEventListener('click', ()=> {businesses.forEach(displayBusinesses)
+      document.querySelector('div.table').style.display = 'none';
+      document.querySelector('div.cards').style.display = '';});
+    but2.addEventListener("click", ()=> {businesses.forEach(displayTable)
+      document.querySelector('div.cards').style.display = 'none';
+      document.querySelector('div.table').style.display = '';});
 
   });
 
@@ -48,17 +58,25 @@ fetch(requestURL)
     document.querySelector('div.cards').appendChild(card);
   }
 
-  function displayTable(prophet){
+  function displayTable(business){
     let list_row = document.createElement('tr');
     let list_td = document.createElement('td');
-    list_td.textContent = `${prophet.name}  ${prophet.lastname}`;
+    list_td.textContent = business.name;
 
-    let td_dob = document.createElement('td');
-    td_dob.textContent = `Date of Birth:  ${prophet.birthdate}`;
+    let td_add = document.createElement('td');
+    td_add.textContent = business.address;
+
+    let td_cell = document.createElement('td');
+    td_cell.textContent = business.phone;
+
+    let td_web = document.createElement('td');
+    td_web.textContent = business.website;
 
     list_row.appendChild(list_td);
-    list_row.appendChild(td_dob);
+    list_row.appendChild(td_web);
+    list_row.appendChild(td_add);
+    list_row.appendChild(td_cell);
 
-    document.querySelector('table').appendChild(list_row);
+    document.querySelector('.table').appendChild(list_row);
 
   }
