@@ -38,6 +38,16 @@ if (mediaQuery.matches) {
 }
 
 // Create a media condition that targets viewports at least 768px wide
+const mediaQuery3 = window.matchMedia('(max-width: 690px)')
+// Check if the media query is true
+if (mediaQuery3.matches) {
+  // Then trigger an alert
+  cards.style.display = 'flex';
+  table.style.display = 'none';
+
+}
+
+// Create a media condition that targets viewports at least 768px wide
 const mediaQuery2 = window.matchMedia('(max-width: 690px)')
 // Check if the media query is true
 if (mediaQuery2.matches) {
