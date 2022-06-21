@@ -1,7 +1,7 @@
 const requestURL = 'https://bentleyr98.github.io/wdd230/chamber/data.json';
 
-but1 = document.querySelector('.but1');
-but2 = document.querySelector('.but2');
+let btn1 = document.querySelector('.btn1');
+let btn2 = document.querySelector('.btn2');
 
 fetch(requestURL)
   .then(function (response) {
@@ -9,18 +9,62 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     const businesses = jsonObject['businesses'];
-
     
+    var table = document.querySelector('.table');
+    var cards = document.querySelector('.cards');
 
-    businesses.forEach(displayBusinesses);
-    but1.addEventListener('click', ()=> {businesses.forEach(displayBusinesses)
-      document.querySelector('div.table').style.display = 'none';
-      document.querySelector('div.cards').style.display = '';});
-    but2.addEventListener("click", ()=> {businesses.forEach(displayTable)
-      document.querySelector('div.cards').style.display = 'none';
-      document.querySelector('div.table').style.display = '';});
+
+btn1.onclick = function() {
+  cards.style.display = "flex";
+  table.style.display = "none";
+}
+
+btn2.onclick = function() {
+  cards.style.display = "none";
+  table.style.display = "table";
+}
+
+businesses.forEach(displayBusinesses);
+businesses.forEach(displayTable);
+
+
+// Create a media condition that targets viewports at least 768px wide
+const mediaQuery = window.matchMedia('(max-width: 900px)')
+// Check if the media query is true
+if (mediaQuery.matches) {
+  // Then trigger an alert
+  cards.style.display = 'none';
+  table.style.display = 'table';
+}
+
+// Create a media condition that targets viewports at least 768px wide
+const mediaQuery2 = window.matchMedia('(max-width: 690px)')
+// Check if the media query is true
+if (mediaQuery2.matches) {
+  // Then trigger an alert
+  let addrList = document.querySelectorAll('.add');
+  for (let i = 0; i < addrList.length; i++) {
+    addrList[i].style.display = 'none';
+  }
+
+}
+
+// const mediaQuery3 = window.matchMedia('(min-width: 700px)')
+// // Check if the media query is true
+// if (mediaQuery3.matches) {
+//   // Then trigger an alert
+//   let addrList = document.querySelectorAll('.add');
+//   for (let i = 0; i < addrList.length; i++) {
+//     addrList[i].style.display = '';
+//   }
+// }
+
 
   });
+
+
+
+
 
 
 
@@ -65,6 +109,7 @@ fetch(requestURL)
 
     let td_add = document.createElement('td');
     td_add.textContent = business.address;
+    td_add.setAttribute('class', 'add');
 
     let td_cell = document.createElement('td');
     td_cell.textContent = business.phone;

@@ -95,7 +95,7 @@ table{
     
 }
 
-div.table{
+.table{
     display: none;
 }
 
@@ -278,7 +278,7 @@ input{
     text-align: center;
 }
 
-.but1, .but2{
+.btn1, .btn2{
     width: 75px;
     height: 75px;
     margin: 10px;
