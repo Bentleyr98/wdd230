@@ -13,19 +13,20 @@ fetch(requestURL)
     var table = document.querySelector('.table');
     var cards = document.querySelector('.cards');
 
+    businesses.forEach(displayBusinesses);
+    businesses.forEach(displayTable);
 
-btn1.onclick = function() {
-  cards.style.display = "flex";
-  table.style.display = "none";
-}
+    btn1.onclick = function() {
+      cards.style.display = "flex";
+      table.style.display = "none";
+    }
 
-btn2.onclick = function() {
-  cards.style.display = "none";
-  table.style.display = "table";
-}
+    btn2.onclick = function() {
+      cards.style.display = "none";
+      table.style.display = "table";
+    }
 
-businesses.forEach(displayBusinesses);
-businesses.forEach(displayTable);
+
 
 
 const mediaQuery = window.matchMedia('(max-width: 900px)')
