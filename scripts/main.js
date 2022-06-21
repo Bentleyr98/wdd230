@@ -12,5 +12,5 @@ document.querySelector('div').innerHTML += `<li> Lesson 06: <a href="chamber">Ch
 document.querySelector('div').innerHTML += `<li> Lesson 07: <a href="lesson7/lazyload.html">Lazy Load Images</a> </li>`;
 document.querySelector('div').innerHTML += `<li> Lesson 08: <a href="lesson8/tablebuild.html">Tables</a> </li>`;
 document.querySelector('div').innerHTML += `<li> Lesson 09: <a href="lesson9/prophets.html">Prophets</a> </li>`;
-document.querySelector('div').innerHTML += `<li> Lesson 10: <a href="">Title</a> </li>`;
+document.querySelector('div').innerHTML += `<li> Lesson 10: <a href="lesson10/weather-api.html">Weather API</a> </li>`;
 document.querySelector('div').innerHTML += `<li> Lesson 11: <a href="">Title</a> </li>`;
