@@ -28,30 +28,24 @@ businesses.forEach(displayBusinesses);
 businesses.forEach(displayTable);
 
 
-// Create a media condition that targets viewports at least 768px wide
 const mediaQuery = window.matchMedia('(max-width: 900px)')
 // Check if the media query is true
 if (mediaQuery.matches) {
-  // Then trigger an alert
   cards.style.display = 'none';
   table.style.display = 'table';
 }
 
-// Create a media condition that targets viewports at least 768px wide
 const mediaQuery3 = window.matchMedia('(max-width: 690px)')
 // Check if the media query is true
 if (mediaQuery3.matches) {
-  // Then trigger an alert
   cards.style.display = 'flex';
   table.style.display = 'none';
 
 }
 
-// Create a media condition that targets viewports at least 768px wide
 const mediaQuery2 = window.matchMedia('(max-width: 690px)')
 // Check if the media query is true
 if (mediaQuery2.matches) {
-  // Then trigger an alert
   let addrList = document.querySelectorAll('.add');
   for (let i = 0; i < addrList.length; i++) {
     addrList[i].style.display = 'none';
@@ -59,15 +53,14 @@ if (mediaQuery2.matches) {
 
 }
 
-// const mediaQuery3 = window.matchMedia('(min-width: 700px)')
-// // Check if the media query is true
-// if (mediaQuery3.matches) {
-//   // Then trigger an alert
-//   let addrList = document.querySelectorAll('.add');
-//   for (let i = 0; i < addrList.length; i++) {
-//     addrList[i].style.display = '';
-//   }
-// }
+const mediaQuery4 = window.matchMedia('(min-width: 700px)')
+// Check if the media query is true
+if (mediaQuery4.matches) {
+  let addrList = document.querySelectorAll('.add');
+  for (let i = 0; i < addrList.length; i++) {
+    addrList[i].style.display = '';
+  }
+}
 
 
   });
