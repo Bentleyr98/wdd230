@@ -58,9 +58,9 @@ div.flex{
 }
 
 
-.join p {
+/* .join p {
     width: 200px;
-}
+} */
 
 .weather p, h4 {
     width: 50px; 
@@ -159,6 +159,19 @@ h4, span.headers {
     text-decoration: underline;
 
 }
+
+.weather p, figcaption{
+    display: inline;
+}
+
+.weather img{
+    background-color: white;
+}
+
+/* .weather h4, .join h4, .news h4 {
+    height: auto;
+    padding-top: 100px;
+} */
 
 form {
     display: flex;
