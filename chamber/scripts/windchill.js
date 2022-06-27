@@ -13,7 +13,7 @@ fetch(apiURL)
     // document.querySelector('#icon-src').textContent = iconsrc;
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', desc);
-    document.querySelector('figcaption').textContent = desc;
+    document.querySelector('.condition').textContent = desc;
 
     let speed = jsObject.wind.speed;
     console.log(speed);
