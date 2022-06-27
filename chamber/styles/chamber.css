@@ -160,7 +160,7 @@ h4, span.headers {
 
 }
 
-.weather p, figcaption{
+.weather p, .condition{
     display: inline;
 }
 
