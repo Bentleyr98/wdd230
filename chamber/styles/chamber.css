@@ -155,8 +155,22 @@ h1{
 h4, span.headers {
     display: inline;
     text-align: center !important;
-    font-size: 14pt;
+    font-size: 12.5pt;
     text-decoration: underline;
+    padding-top: 20px;
+
+}
+
+section:not(.hero){
+    padding-top: 20px;
+}
+
+.news{
+    margin-top: -20px;
+}
+
+section img:not(.heroImg){
+margin-top: 15px;
 
 }
 
