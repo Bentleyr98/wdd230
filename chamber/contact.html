@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce for McCall. Visit here to
+    get a look at this adventurous mountain community of McCall, Idaho">
+    <title>McCall Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        
+        <div class="logonav">
+        <img class='logo' src="images/MCC_logo2.webp" alt="Logo for site. Mountains outlined in yellow against a blue background.">
+        <h1>McCall Chamber of Commerce</h1>
+        <nav>
+            <ul>
+                <li><a class="ham" href="#">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="https://www.facebook.com/"><img class="social" src="images/facebook_link.png" alt="Facebook icon that links to facebook"></a>
+        <a href="https://www.instagram.com/?hl=en"><img class="social" src="images/instagram_link.png" alt="Instagram icon that links to Instagram"></a>
+        </div>
+        <p class="date_h"></p>
+
+    </header>
+
+    <main>
+        <p class="banner"></p>
+        <p class="visited"></p>
+
+        <!-- Add the Contact page to the site. This page should not only 
+        have an inquiry form but also a list/display of the board of 
+        directors for the chamber. The rest of the content and layout
+         choices are up to you and should be relevant. 
+        Prove your knowledge of layouts and concepts on this page.  -->
+<div class="contact_form">
+        <form action="#" method="GET" autocomplete="on" >
+            <label for="fname">First Name: </label>
+            <input id="fname" name="first_name" required>
+            <label for="lname">Last Name: </label>
+            <input id="lname" name="last_name" required>
+            <label for="email">Email Address: </label>
+            <input id="email" name="email" type="email" required>
+            <label for="phone">Phone Number: </label>
+            <input id="phone" type="tel" name="telephone" min-length="10" placeholder="(###) ###-####" required>
+            
+            <label id="contact">Preferred Method of Contact: </label>
+            <label for="ph"><input id="ph" type="radio" name="method">  Email </label>
+            <label for="em"><input id="em" type="radio" name="method">  Phone Number </label>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <section class="board">
+            <div class="dir_cards">
+                <div class="flex">
+                <section>
+                    <img src="images/businesses/chair.jpg" alt="smiling person">
+                    <p>Chair</p>
+                    <p>Martha Lander</p>
+                </section>
+
+                <section>
+                    <img src="images/businesses/vc.jpg" alt="smiling person">
+                    <p>Vice Chair</p>
+                    <p>Todd Smith</p>
+                </section>
+
+                <section>
+                    <img src="images/businesses/secretary.jpg" alt="smiling person">
+                    <p>Secretary</p>
+                    <p>Joseph Lester</p>
+                </section>
+
+                <section>
+                    <img src="images/businesses/treasurer.jpg" alt="smiling person">
+                    <p>Treasurer</p>
+                    <p>Hannah Naku</p>
+                </section>
+
+                <section>
+                    <img src="images/businesses/bm1.jpg" alt="smiling person">
+                    <p>Board Member</p>
+                    <p>Jose Martinez</p>
+                </section>
+
+                <section>
+                    <img src="images/businesses/bm2.jpg" alt="smiling person">
+                    <p>Board Member</p>
+                    <p>Abby Tucker</p>
+                </section>
+
+                <section>
+                    <img src="images/businesses/bm3.jpg" alt="smiling person">
+                    <p>Board Member</p>
+                    <p>David Yacker</p>
+                </section>
+            </div>
+            </div>
+        </section>
+    </div>
+    </main>
+    <footer> 
+        <div class="firstLine">
+        <img class='logo' src="images/MCC_logo2.webp" alt="Logo for site. Mountains outlined in yellow against a blue background">
+        <p class="name ">McCall Chamber of Commerce <br> McCall, Idaho</p>
+        <p class="contact"><a href = 'McCallCommmerce.gmail.com'>Email Us Here</a></p>
+        <p class="location"><a href="https://www.google.com/maps/place/McCall,+ID+83638/@44.9001277,-116.1846026,12z/data=!3m1!4b1!4m5!3m4!1s0x54a659e630979ba1:0x63b51760e0318a36!8m2!3d44.906183!4d-116.1171311">Location</a></p>
+</div>
+        <p class="mod"> &copy;<span class="year"></span> McCall Chamber of Commerce - Bekah Bentley - WDD 230 Project - Last Date Modified: <span class="date"></span></p>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>

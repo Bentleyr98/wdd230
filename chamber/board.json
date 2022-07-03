@@ -1,0 +1,46 @@
+{
+    "board": [
+        {
+            "name": "Douglas Martin",
+            "role": "Director",
+            "img": "images/businesses/MFP.png"
+          },
+
+          {
+            "name": "Nancy Hewett",
+            "role": "co-chair",
+            "img": "images/businesses/MFP.png"
+          },
+
+          {
+            "name": "My Father's Place",
+            "role": "901 N 3rd St, McCall, Idaho, United States",
+            "img": "images/businesses/MFP.png"
+          },
+
+          {
+            "name": "My Father's Place",
+            "role": "901 N 3rd St, McCall, Idaho, United States",
+            "img": "images/businesses/MFP.png"
+          },
+
+          {
+            "name": "My Father's Place",
+            "role": "901 N 3rd St, McCall, Idaho, United States",
+            "img": "images/businesses/MFP.png"
+          },
+
+          {
+            "name": "My Father's Place",
+            "role": "901 N 3rd St, McCall, Idaho, United States",
+            "img": "images/businesses/MFP.png"
+          },
+
+          {
+            "name": "My Father's Place",
+            "role": "901 N 3rd St, McCall, Idaho, United States",
+            "img": "images/businesses/MFP.png"
+          }
+
+]
+}
