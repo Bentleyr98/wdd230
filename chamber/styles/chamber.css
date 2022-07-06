@@ -173,7 +173,7 @@ h4, span.headers {
 
 }
 
-section:not(.hero){
+section:not(.hero):not(.board){
     padding-top: 20px;
 }
 
@@ -220,16 +220,56 @@ form {
     gap: 20px;
     justify-content: center;
     margin-left: -100px;
+    
 
 
+}
+
+.contact_form h3{
+    font-size: 24pt;
+    text-align: center;
+}
+
+.board section{
+    background-color: white;
+    padding-right: 10px;
+    
+}
+
+.board h3{
+    font-size: 24pt;
+    text-align: center;
+}
+
+.board section img{
+    margin-top: -5px;
+}
+
+.board section p{
+    margin-top: -10px;
+    text-align: center;
 }
 
 .contact_form form{
     background-color: #D3D3D3;
-    justify-content: center;
-    margin-bottom: 100px;
+    /* justify-content: center; */
+    margin-bottom: 250px;
+    width: 100%;
 }
 
+.contact_form{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #D3D3D3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    padding-right: 30px;
+}
 /* section{
     gap: 30px;
 } */
