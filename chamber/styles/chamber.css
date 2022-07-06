@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap');
 
 
@@ -422,7 +422,7 @@ input{
     margin-top: 15px;
 }
 
-.gold, #desc_bus{
+.gold, #desc_bus, #message{
     margin-bottom: 15px;
 }
 
