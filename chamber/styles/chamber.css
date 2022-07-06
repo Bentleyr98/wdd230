@@ -22,6 +22,7 @@ div.flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
 }
 
 .visited{
@@ -33,7 +34,7 @@ div.flex{
     width: 600px;
     height: 400px;
     margin: 10px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .norm[data-src]:hover {box-shadow: 0 0 50px #333;}
@@ -229,28 +230,43 @@ form {
     margin-bottom: 100px;
 }
 
-section{
-    position: relative;
+/* section{
+    gap: 30px;
+} */
+
+section.dis_image{
+    width: 620px;
+    background-color: #D3D3D3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    gap: 50px;
 }
 
-.pic_desc{
-    position:absolute;
-    top:425px;
-    left:10px
+div.pic_desc{
+    text-align: center;
+    padding: 10px 20px;
 }
 
 .form_section{
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 100px;
     justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
     background-color: #D3D3D3;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
+.form_section .form_info{
+    margin-top: -50px;
+}
+
+
+
 form, .form_info{
-    width: 30%;
+    width: 40%;
 }
 
 .call{
