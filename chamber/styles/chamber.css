@@ -605,7 +605,29 @@ nav ul {
         float: left;
     
     }
-  
+
+    .contact_form, .form_section{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }  
+
+    .contact_form form, .form_section form{
+        margin: 0 auto;
+        width: 100%;
+
+
+    }
+
+    .form_section .form_info{
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 10px;
+    }
+
       nav ul li:first-child {
         display: block;
         padding-right: 0px;
