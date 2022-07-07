@@ -27,33 +27,6 @@ fetch(requestURL)
     }
 
 
-
-
-// const mediaQuery = window.matchMedia('(max-width: 900px)')
-// // Check if the media query is true
-// if (mediaQuery.matches) {
-//   cards.style.display = 'none';
-//   table.style.display = 'table';
-// }
-
-// const mediaQuery3 = window.matchMedia('(max-width: 690px)')
-// // Check if the media query is true
-// if (mediaQuery3.matches) {
-//   cards.style.display = 'flex';
-//   table.style.display = 'none';
-
-// }
-
-// const mediaQuery2 = window.matchMedia('(max-width: 690px)')
-// // Check if the media query is true
-// if (mediaQuery2.matches) {
-//   let addrList = document.querySelectorAll('.add');
-//   for (let i = 0; i < addrList.length; i++) {
-//     addrList[i].style.display = 'none';
-//   }
-
-// }
-
 window.addEventListener('resize', function(event){
   if (window.innerWidth >= 900){
       console.log(900);
@@ -85,24 +58,9 @@ window.addEventListener('resize', function(event){
   }
     cards.style.display = 'flex';
     table.style.display = 'none';
-  // } else if (window.innerWidth < 690)
-  // {
-  //   console.log('small');
-  //   let addrList = document.querySelectorAll('.add');
-  //   for (let i = 0; i < addrList.length; i++) {
-  //   addrList[i].style.display = 'none';
-  // }
   } 
 }); 
 
-// const mediaQuery4 = window.matchMedia('(min-width: 700px)')
-// // Check if the media query is true
-// if (mediaQuery4.matches) {
-//   let addrList = document.querySelectorAll('.add');
-//   for (let i = 0; i < addrList.length; i++) {
-//     addrList[i].style.display = '';
-//   }
-// }
 
 
   });
