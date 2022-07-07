@@ -8,18 +8,54 @@ fetch(apiURL)
     document.querySelector('#current-temp').textContent = f.toFixed(2);
 
 
-    const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
-    const desc = jsObject.weather[0].main;
+    
+    let desc = jsObject.weather[0].description;
     // document.querySelector('#icon-src').textContent = iconsrc;
-    document.querySelector('#weathericon').setAttribute('src', iconsrc);
-    document.querySelector('#weathericon').setAttribute('alt', desc);
+    
     document.querySelector('.condition').textContent = desc;
+
+    if (desc == 'clear sky'){
+      let iconsrc = 'images/clearSky.png';
+      document.querySelector('#weathericon').setAttribute('src', iconsrc);
+    } else if (desc = 'few clouds'){
+      let iconsrc = "images/fewClouds.png";
+      document.querySelector('#weathericon').setAttribute('src', iconsrc);
+    } else if (desc = 'scattered clouds'){
+      let iconsrc = 'images/scatteredCloudy.png';
+      document.querySelector('#weathericon').setAttribute('src', iconsrc);
+    } else if (desc = 'broken clouds'){
+      let iconsrc = 'images/brokenClouds.png';    
+      document.querySelector('#weathericon').setAttribute('src', iconsrc);
+    } else if (desc = 'shower rain'){
+      let iconsrc = 'images/showerRain.png';    
+      document.querySelector('#weathericon').setAttribute('src', iconsrc);
+    } else if (desc = 'rain'){
+      let iconsrc = 'images/rain.png';    
+      document.querySelector('#weathericon').setAttribute('src', iconsrc);
+    } else if (desc = 'thunderstorm'){
+      let iconsrc = 'images/thunderstorm.png';    
+      document.querySelector('#weathericon').setAttribute('src', iconsrc);
+    } else if (desc = 'snow'){
+      let iconsrc = 'images/snow.png';    
+      document.querySelector('#weathericon').setAttribute('src', iconsrc);
+    } else if (desc = 'mist'){
+      let iconsrc = 'images/mist.png';    
+      document.querySelector('#weathericon').setAttribute('src', iconsrc);
+    } else{
+      let iconsrc = 'images/fewClouds.png';    
+      document.querySelector('#weathericon').setAttribute('src', iconsrc);
+    }
+
+    document.querySelector('#weathericon').setAttribute('alt', desc);
+    
+    // document.querySelector('#weathericon').setAttribute('src', iconsrc);
 
     let speed = jsObject.wind.speed;
     console.log(speed);
     document.querySelector(".wind").textContent = speed;
 
   });
+
 
   
 
