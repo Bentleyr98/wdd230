@@ -79,11 +79,11 @@ if (!stored_date){
     //calculate the number of days between the two dates
     let diff_day = Math.round(diff_time/(1000*60*60*24));
 
-    if (diff_day == 0){
-        let day = 'days';
+    if (diff_day == 1){
+        let day = 'day';
         visit_heading.textContent = diff_day + ' ' + day + ' since your last visit';
     } else{
-        let day = 'day';
+        let day = 'days';
         visit_heading.textContent = diff_day + ' ' + day + ' since your last visit';
     }
     
